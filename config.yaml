@@ -1,0 +1,30 @@
+# 认证
+auth:
+  # AccessKey
+  ak: 'ak'
+  # SecurityKey
+  sk: 'sk'
+# pro
+pro:
+  # EIP 创建
+  eip_create:
+    url: 'https://ecx-global.ctapi.ctyun.cn/v1/allocateEipAddress'
+    # 边缘池id
+    nodeCode: 'hi-haikou-6'
+    # 带宽大小
+    bandwidthSize: 1
+    # 是否有带宽限制, true:有带宽限制，false:没有带宽限制
+    noBandwidthLimit: true
+    # 分配类型, false: ip v4 only, true: dual stack
+    isDualStack: true
+    # 带宽计费方式
+    bandwidthPriceType: 'FIXED_BANDWIDTH'
+# run
+run:
+  time:
+    interval: 5
+
+
+
+
+
