@@ -1,9 +1,9 @@
 # 认证
 auth:
   # AccessKey
-  ak: 'adb43579301f33a9f290086c6615b48a'
+  ak: 'ak'
   # SecurityKey
-  sk: 'uN4YI3zC66gvJM4EzUtWSgTxcP8Omgvu1QDZw0O4MGo'
+  sk: 'sk'
 # pro
 pro:
   # EIP 创建
